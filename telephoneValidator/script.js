@@ -6,7 +6,7 @@ let input = document.querySelector("#user-input");
 clearBtn.addEventListener("click", () => {
   results.innerText = "";
 });
-// /^(1\s?)?(\(\d{3}\)|\d{3})([\s-]?)\d{3}([\s-]?)\d{4}$/
+
 checkBtn.addEventListener("click", () => {
   const regex = /^(1\s?)?(\(\d{3}\)|\d{3})([\s-]?)\d{3}([\s-]?)\d{4}$/;
   if (!input.value) {
